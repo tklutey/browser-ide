@@ -1,3 +1,4 @@
+import React from 'react';
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 import {CircularProgress} from '@mui/material';
 import {styled} from '@mui/material/styles';
@@ -43,4 +44,4 @@ type Props = {
     isTerminalFullHeight?: boolean;
 };
 
-export default RunButton;
+export { RunButton };

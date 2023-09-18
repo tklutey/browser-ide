@@ -1,7 +1,12 @@
 {
   "name": "browser-ide",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "private": false,
+  "exports": {
+    ".": {
+      "import": "./src/index.ts"
+    }
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
